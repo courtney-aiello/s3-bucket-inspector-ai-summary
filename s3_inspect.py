@@ -46,9 +46,10 @@ def main():
         details = inspect_bucket(bucket)
         report.append(details)
 
-    # Save report as JSON (can be used for AI input later)
-    with open('s3_bucket_report.json', 'w') as f:
+    # Save report as JSON
+    with open('/Users/ca/Documents/Security_Daily_Challenges/S3_Bucket_Inspector_AI_Summary_Report/s3_bucket_report.json', 'w') as f:
         json.dump(report, f, indent=2)
 
 if __name__ == '__main__':
     main()
+

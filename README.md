@@ -2,6 +2,8 @@ S3 Bucket Inspector + AI Summary
 
 This Python script scans all S3 buckets in your AWS account and generates a human-readable security summary using OpenAI's GPT 4.0 mini model, although you can change out models. 
 
+# Built with some help from ChatGPT for logic and syntax assistance.
+
 + Requirements
 
 - Python 3.7+

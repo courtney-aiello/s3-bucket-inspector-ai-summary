@@ -47,7 +47,7 @@ def main():
         report.append(details)
 
     # Save report as JSON
-    with open('/Users/ca/Documents/Security_Daily_Challenges/S3_Bucket_Inspector_AI_Summary_Report/s3_bucket_report.json', 'w') as f:
+    with open('s3_bucket_report.json', 'w') as f:
         json.dump(report, f, indent=2)
 
 if __name__ == '__main__':
